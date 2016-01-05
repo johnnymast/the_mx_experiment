@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "The MX Experiment",
+  "description": "Show the MX records for the current domain",
+  "version": "1.0",
+  "author": "Johnny Mast",
+  "homepage_url": "http://www.digital4u.nl",
+  "icons": { "16": "icons/icon_16x16.png",
+    "48": "icons/icon_48x48.png",
+    "65": "icons/icon_64x64.png"
+  },
+  "background" : {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "icons/icon_16x16.png",
+    "default_title": "Show MX records on mxtoolbox.com"
+  },
+  "permissions": [ "tabs" ]
+}
